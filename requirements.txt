@@ -1,0 +1,8 @@
+langgraph>=0.1.2
+langchain>=0.2.3
+langchain-openai>=0.1.9
+python-dotenv>=1.0.0
+opentelemetry-sdk==1.21.0
+opentelemetry-exporter-jaeger==1.21.0
+opentelemetry-exporter-otlp==1.21.0
+tenacity>=8.2.3

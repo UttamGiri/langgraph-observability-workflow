@@ -1,0 +1,2 @@
+LangGraph is a Python framework for building deterministic, traceable AI workflows.
+It integrates with OpenTelemetry and Jaeger for enterprise observability.

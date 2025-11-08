@@ -75,13 +75,6 @@ This project demonstrates a simple LangGraph workflow with OpenTelemetry tracing
 
 Build and run the container locally:
 
-```bash
-docker build -t langgraph-observability-workflow .
-docker run --rm -it \
-  --env-file .env \
-  --network host \
-  langgraph-observability-workflow
-```
 
 Using `--network host` lets the container reach a Jaeger agent on `localhost:6831`. On macOS or Windows (Docker Desktop), map the UDP port instead:
 
